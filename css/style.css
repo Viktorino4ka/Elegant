@@ -1,0 +1,170 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: url("../images/9index_01.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 80px;
+    height: 700px;
+
+
+}
+header img{
+    padding: 17px 0px 0px 49px;
+}
+header h1{
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 318px;
+}
+
+.More{
+    max-width: 760px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+.More h3{
+    font-size: 13px;
+    color: #d4af37;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.More h1{
+    font-size: 44px;
+    color: #021725;
+    margin-bottom: 59px;
+}
+.More h1:nth-of-type(2){
+    margin-bottom: 90px;
+}
+
+.More p{
+    font-size: 18px;
+    color: #021725;
+    line-height: 31px;
+    margin-bottom: 53px;
+}
+
+ a{
+    font-size: 14px;
+    color: #021725;
+    text-decoration: none;
+    margin-bottom: 160px;
+    border: 1px solid black;
+    padding: 25px 50px;
+    display: inline-block;
+
+
+}
+
+
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 160px;
+}
+
+.photo img{
+border: 3px solid white;
+    width: 25%;
+
+}
+
+@media only screen and (max-width: 375px) {
+    .photo img{
+        width: 100%;
+
+    }
+}
+
+.People{
+    max-width: 760px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 165px;
+
+}
+.People__text{
+    margin-bottom: 50px;
+}
+
+.People h3{
+    font-size: 13px;
+    color: #d4af37;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.People h1{
+    font-size: 44px;
+    color: #021725;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.People p{
+    font-size: 18px;
+    color: #021725;
+    line-height: 30px;
+    text-align: center;
+}
+
+.People__tobias{
+    max-width: 245px;
+    background-color: #f9f9f9;
+
+
+}
+.People__tobias h4{
+    font-size: 21px;
+    color: #021725;
+    margin-bottom: 40px;
+
+}
+.People__tobias p{
+    color: #021725;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: start;
+}
+.People__tobias h2{
+    font-size: 13px;
+    color: #d4af37;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+
+}
+.People__tobias img{
+    padding-bottom: 10px;
+
+}
+.People__lorem{
+    padding: 20px;
+    max-width: 212px;
+
+}
+.general{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
