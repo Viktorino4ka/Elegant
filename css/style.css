@@ -24,36 +24,36 @@ header h1{
     padding-top: 318px;
 }
 
-.More{
+.world{
     max-width: 760px;
     margin: auto;
     text-align: center;
     background-color: white;
 }
-.More h3{
+.world h3{
     font-size: 13px;
     color: #d4af37;
     margin-bottom: 25px;
     text-transform: uppercase;
 }
 
-.More h1{
+.world h1{
     font-size: 44px;
     color: #021725;
     margin-bottom: 59px;
 }
-.More h1:nth-of-type(2){
+.world h1:nth-of-type(2){
     margin-bottom: 90px;
 }
 
-.More p{
+.world p{
     font-size: 18px;
     color: #021725;
     line-height: 31px;
     margin-bottom: 53px;
 }
 
- a{
+ .world a{
     font-size: 14px;
     color: #021725;
     text-decoration: none;
@@ -156,6 +156,161 @@ border: 3px solid white;
     display: flex;
     justify-content: space-between;
 }
+
+.write{
+    max-width: 760px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 82px;
+}
+
+.write__post{
+    text-align: center;
+}
+.write__post h3{
+    font-size: 13px;
+    color: #d4af37;
+    line-height: 59px;
+}
+.write__post h1{
+    font-size: 44px;
+    color: #505d68;
+    margin-bottom: 50px;
+}
+
+.write__text{
+    background-color: #f9f9f9;
+    width: 50%;
+    padding: 40px 18px 40px 40px;
+
+
+}
+.write__text h3{
+    font-size: 13px;
+    color: #505d68;
+    text-transform: uppercase;
+    line-height: 24px;
+
+}
+.write__text h1{
+    font-size: 30px;
+    color: #505d68;
+    line-height: 57px;
+}
+
+.write__text p{
+    font-size: 13px;
+    color: #505d68;
+    line-height: 22px;
+    margin-bottom: 85px;
+
+}
+
+.write__text a{
+    font-size: 14px;
+    color: #021725;
+    border: solid 1px #000000;
+    padding: 14px 48px;
+    text-decoration: none;
+}
+
+.write__common{
+    display: flex;
+    justify-content: start;
+}
+
+.write__photo{
+    width: 50%;
+
+}
+
+.button{
+    text-align: center;
+    margin-bottom: 158px;
+}
+.button a{
+    text-decoration: none;
+    border: #000000 1px solid ;
+    padding: 25px 53px;
+    font-size: 14px;
+    color: #021725;
+
+}
+
+
+.location{
+    max-width: 760px;
+    margin: auto;
+
+}
+
+
+.location h3{
+    margin-bottom: 23px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#d4af37 ;
+}
+
+.location h1{
+    color: #505d68;
+    margin-bottom: 55px;
+    font-size: 44px;
+    text-align: center;
+}
+
+
+.location__map{
+    height: 290px;
+}
+
+.location__contacts{
+    text-align: center;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.location__wd{
+    width: 50%;
+    margin: 50px 0;
+}
+
+.contacts__general h4{
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #505d68;
+    line-height: 50px;
+}
+.contacts__general p{
+    font-size: 19px;
+    color: #505d68;
+    line-height: 30px;
+
+}
+
+
+footer{
+    background-color: #eeeeee;
+    margin-top: 82px;
+}
+.common{
+    max-width: 760px;
+    margin: auto;
+    padding: 39px 0;
+}
+
+.common{
+    display: flex;
+    justify-content: space-between;
+}
+.common p{
+    font-size: 16px;
+    color: #505d68;
+}
+
 
 
 
