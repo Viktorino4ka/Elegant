@@ -1,3 +1,9 @@
+.world h3, .People h3, .write .write__post h3, .location h3 {
+  font-size: 13px;
+  color: #d4af37;
+  text-transform: uppercase;
+  text-align: center; }
+
 * {
   padding: 0;
   margin: 0;
@@ -9,6 +15,20 @@ header {
   background-size: 100% auto;
   margin-bottom: 80px;
   height: 700px; }
+  @media only screen and (max-width: 750px) {
+    header {
+      background: url("../images/bg_mobile_01.jpg") no-repeat;
+      background-size: cover;
+      height: 1340px; } }
+  header .header-line {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 15px 0 18px; }
+    @media only screen and (max-width: 750px) {
+      header .header-line {
+        background-color: #545a5b;
+        opacity: 0.93; } }
   header img {
     padding: 17px 0 0 49px; }
   header h1 {
@@ -22,11 +42,11 @@ header {
   margin: auto;
   text-align: center;
   background-color: white; }
+  @media only screen and (max-width: 750px) {
+    .world {
+      padding: 0 35px; } }
   .world h3 {
-    font-size: 13px;
-    color: #d4af37;
-    margin-bottom: 25px;
-    text-transform: uppercase; }
+    margin-bottom: 25px; }
   .world h1 {
     font-size: 44px;
     color: #021725;
@@ -54,18 +74,35 @@ header {
   .photo img {
     border: 3px solid white;
     width: 25%; }
+    @media only screen and (max-width: 750px) {
+      .photo img {
+        width: 100%; } }
+
+.general {
+  display: flex;
+  justify-content: space-between; }
+  @media only screen and (max-width: 750px) {
+    .general {
+      flex-direction: column; } }
 
 .People {
   max-width: 760px;
   margin: auto;
   background-color: white;
   margin-bottom: 165px; }
+  @media only screen and (max-width: 750px) {
+    .People {
+      padding: 0 35px;
+      flex-direction: column; } }
+  .People .People__tobias {
+    max-width: 245px;
+    background-color: #f9f9f9; }
+    @media only screen and (max-width: 750px) {
+      .People .People__tobias {
+        width: 100%;
+        max-width: 100%; } }
   .People h3 {
-    font-size: 13px;
-    color: #d4af37;
-    margin-bottom: 33px;
-    text-transform: uppercase;
-    text-align: center; }
+    margin-bottom: 33px; }
   .People h1 {
     font-size: 44px;
     color: #021725;
@@ -78,9 +115,6 @@ header {
     text-align: center; }
   .People .People__text {
     margin-bottom: 50px; }
-  .People .People__tobias {
-    max-width: 245px;
-    background-color: #f9f9f9; }
   .People .People__tobias h4 {
     font-size: 21px;
     color: #021725;
@@ -97,33 +131,52 @@ header {
     text-transform: uppercase; }
   .People .People__tobias img {
     padding-bottom: 10px; }
+    @media only screen and (max-width: 750px) {
+      .People .People__tobias img {
+        width: 100%; } }
   .People .People__lorem {
     padding: 20px;
     max-width: 212px; }
-
-.general {
-  display: flex;
-  justify-content: space-between; }
+    @media only screen and (max-width: 750px) {
+      .People .People__lorem {
+        width: 100%;
+        max-width: 100%; } }
 
 .write {
   max-width: 760px;
   margin: auto;
   background-color: white;
   margin-bottom: 82px; }
+  .write .write__common {
+    display: flex;
+    justify-content: start; }
+    @media only screen and (max-width: 750px) {
+      .write .write__common {
+        flex-direction: column;
+        padding: 0 35px; } }
+  .write .write__photo {
+    width: 50%; }
+    @media only screen and (max-width: 750px) {
+      .write .write__photo {
+        width: 100%; } }
+  @media only screen and (max-width: 750px) {
+    .write img {
+      width: 100%; } }
+  .write .write__text {
+    background-color: #f9f9f9;
+    width: 50%;
+    padding: 40px 18px 40px 40px; }
+    @media only screen and (max-width: 750px) {
+      .write .write__text {
+        width: 100%; } }
   .write .write__post {
     text-align: center; }
   .write .write__post h3 {
-    font-size: 13px;
-    color: #d4af37;
     line-height: 59px; }
   .write .write__post h1 {
     font-size: 44px;
     color: #505d68;
     margin-bottom: 50px; }
-  .write .write__text {
-    background-color: #f9f9f9;
-    width: 50%;
-    padding: 40px 18px 40px 40px; }
   .write .write__text h3 {
     font-size: 13px;
     color: #505d68;
@@ -144,11 +197,6 @@ header {
     border: solid 1px #000000;
     padding: 14px 48px;
     text-decoration: none; }
-  .write .write__common {
-    display: flex;
-    justify-content: start; }
-  .write .write__photo {
-    width: 50%; }
 
 .button {
   text-align: center;
@@ -163,12 +211,11 @@ header {
 .location {
   max-width: 760px;
   margin: auto; }
+  @media only screen and (max-width: 750px) {
+    .location {
+      padding: 0 35px; } }
   .location h3 {
-    margin-bottom: 23px;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #d4af37; }
+    margin-bottom: 23px; }
   .location h1 {
     color: #505d68;
     margin-bottom: 55px;
@@ -206,11 +253,18 @@ footer {
   padding: 39px 0;
   display: flex;
   justify-content: space-between; }
+  @media only screen and (max-width: 750px) {
+    .common {
+      flex-direction: column;
+      padding-left: 10px; } }
+  .common div:nth-of-type(1) {
+    margin-bottom: 15px; }
   .common p {
     font-size: 16px;
     color: #505d68; }
 
 .navBurger {
+  z-index: 2;
   position: fixed;
   right: 20px;
   top: 20px;
@@ -226,6 +280,9 @@ footer {
   transform: rotate(0deg);
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out; }
+  @media only screen and (max-width: 750px) {
+    .navBurger {
+      top: 40px; } }
 
 .navBurger:before, .navBurger:after {
   content: "";
@@ -239,13 +296,16 @@ footer {
   transform: rotate(0deg);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
+  @media only screen and (max-width: 750px) {
+    .navBurger:before, .navBurger:after {
+      height: 4px; } }
 
 .navBurger:before {
   top: -10px; }
 
 .navBurger:after {
   bottom: -10px;
-  width: 90%; }
+  width: 100%; }
 
 .navBurger.active {
   background: transparent;
